@@ -1,5 +1,4 @@
-const { throws } = require('assert');
-const app = require('express');
+const app = require('../src/app');
 const http = require('http');
 const debug = require('debug')('nodestr:server');
 
